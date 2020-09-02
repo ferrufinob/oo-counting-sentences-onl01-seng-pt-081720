@@ -4,6 +4,8 @@ class String
 
   def sentence?
     if String.end_with?(".")
+      true
+    end
   end
 
   def question?
