@@ -6,6 +6,8 @@ class String
     if self.end_with?(".")
       true
     end
+  else 
+    false
   end
 
   def question?
