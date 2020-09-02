@@ -27,6 +27,7 @@ end
   end
 
   def count_sentences
+    # split the text into sentences and count them
     self.scan(/[^\.!?]+[\.!?]/).map(&:strip).count
 
   end
